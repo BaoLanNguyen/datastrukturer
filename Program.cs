@@ -10,29 +10,32 @@
             {
                 stack.Push(c);
             }
-            else{ if (stack.Count == 0)
+            else
             {
-                Console.WriteLine("Unbalanced");
-            }
-            bool b = false;
-            char charStack = stack.Pop();
-            if (c=='}' && charStack=='{')
-            {
-                b = true;
+                if (stack.Count == 0)
+                {
+                    Console.WriteLine("Unbalanced");
+                    return;
+                }
+                bool b = false;
+                char charStack = stack.Pop();
+                if (c=='}' && charStack=='{')
+                {
+                    b = true;
+                    
+                }
+                if (c==']' && charStack=='[')
+                {
+                    b = true;
+                    
+                }
+                if (!b){
+                    Console.WriteLine("Unbalanced");
                 
+                }
             }
-            if (c==']' && charStack=='[')
-            {
-                b = true;
-                
-            }
-            if (!b){
-                Console.WriteLine("Unbalanced");
-            
-            }
-            }
-            
         }
+            
         if (stack.Count==0)
         {
             Console.WriteLine("Balanced");
@@ -40,5 +43,5 @@
         else{
             Console.WriteLine("Unbalanced");
         }
+        }
     }
-}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\Hemmsida-till-kund-Webbutveckling\\datastrukturer\\datastrukturer.csproj": {}
+    "C:\\Users\\Admin\\Documents\\BLN\\datastrukturer\\datastrukturer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\Hemmsida-till-kund-Webbutveckling\\datastrukturer\\datastrukturer.csproj": {
+    "C:\\Users\\Admin\\Documents\\BLN\\datastrukturer\\datastrukturer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Hemmsida-till-kund-Webbutveckling\\datastrukturer\\datastrukturer.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\BLN\\datastrukturer\\datastrukturer.csproj",
         "projectName": "datastrukturer",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Hemmsida-till-kund-Webbutveckling\\datastrukturer\\datastrukturer.csproj",
+        "projectPath": "C:\\Users\\Admin\\Documents\\BLN\\datastrukturer\\datastrukturer.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Hemmsida-till-kund-Webbutveckling\\datastrukturer\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\BLN\\datastrukturer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
