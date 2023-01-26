@@ -10,26 +10,26 @@
             {
                 stack.Push(c);
             }
-            else if (stack.Count == 0)
+            else{ if (stack.Count == 0)
             {
                 Console.WriteLine("Unbalanced");
-                return;
             }
             bool b = false;
             char charStack = stack.Pop();
             if (c=='}' && charStack=='{')
             {
                 b = true;
-                return;
+                
             }
             if (c==']' && charStack=='[')
             {
                 b = true;
-                return;
+                
             }
             if (!b){
                 Console.WriteLine("Unbalanced");
-                return;
+            
+            }
             }
             
         }
